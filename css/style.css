@@ -8,8 +8,6 @@
 }
 
 *, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -480,7 +478,7 @@ header {
   height: 100%;
   left: 0;
   top: 0;
-  background: url(../../img/pictures/main.jpg) center/cover no-repeat;
+  background: url(../img/pictures/main.jpg) center/cover no-repeat;
 }
 
 .bottomblock {
@@ -873,13 +871,13 @@ header {
   top: 0;
 }
 .pictureblock__bg_pier {
-  background: url(../../img/pictures/pier.png) center/cover no-repeat;
+  background: url(../img/pictures/pier.png) center/cover no-repeat;
 }
 .pictureblock__bg_road {
-  background: url(../../img/pictures/road.png) center/cover no-repeat;
+  background: url(../img/pictures/road.png) center/cover no-repeat;
 }
 .pictureblock__bg_river {
-  background: url(../../img/pictures/river.png) center/cover no-repeat;
+  background: url(../img/pictures/river.png) center/cover no-repeat;
 }
 
 @media (max-width: 767.98px) {
